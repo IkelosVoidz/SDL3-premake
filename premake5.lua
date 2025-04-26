@@ -8,7 +8,7 @@ local cmakeOptions = {
     "-DSDL_DISABLE_INSTALL=OFF",
     "-DSDL_DISABLE_INSTALL_DOCS=OFF",
     "-DSDL_INSTALL_TESTS=OFF",
-    "-DSDL_LIBC=OFF"
+    "-DSDL_LIBC=ONj"
 }
 
 local cmakeCommand = "cmake " .. table.concat(cmakeOptions, " ")

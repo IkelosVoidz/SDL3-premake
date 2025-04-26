@@ -71,7 +71,6 @@ Xcode/build.xcconfig
 # for Visual C++
 .vs
 Debug
-Release
 *.user
 *.ncb
 *.suo
