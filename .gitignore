@@ -8,11 +8,13 @@ __pycache__
 *.so
 *.so.*
 *.dll
+*.lib
+!release/**/*.dll
+!release/**/*.lib
 *.exe
 *.o
 *.obj
 *.res
-*.lib
 *.a
 *.la
 *.dSYM
